@@ -1,0 +1,52 @@
+.add-task-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.add-task-input {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+
+}
+.add-task-action{
+    display: flex;
+    justify-content: center;
+    gap:5px ;
+}
+
+.task-list li{
+    margin-top: 10px;
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    border:2px solid rgb(0, 0, 0);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .completed {
+    text-decoration: line-through;
+}
+
+.task-list .delete {
+   background-color: red;
+   padding: 0px 10px;
+   cursor: pointer;
+}
+.task-manager {
+    /* margin-top: 20px; */
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 20%;
+    margin-top: 10%;
+}
